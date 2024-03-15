@@ -1,4 +1,3 @@
-
 function CheckBypassAntiCheat()
 game.Players.LocalPlayer.DataPreloaded:Destroy()
 game.Players.LocalPlayer.DataLoaded:Destroy()
