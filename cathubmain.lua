@@ -1770,7 +1770,7 @@ CheckBypassAntiCheat()
             end
         end)
     
-        local Update = loadstring(Game:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/ahmadsgamer2/main/Speed%20Hub%20X%20V2")()
+        local Update = loadstring(Game:HttpGet"https://raw.githubusercontent.com/cattium/cathub/main/cathubmain.lua")()
         loadstring(Game:HttpGet"https://raw.githubusercontent.com/cattium/cathub/main/close.lua")()
     local Library = Update:Window("","",Enum.KeyCode.RightControl);
     local Main = Library:Tab("Main","rbxassetid://11446825283")
@@ -11761,7 +11761,7 @@ CheckBypassAntiCheat()
                         elseif _G.Auto_Raid_Farm and not game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Special Microchip") and not game:GetService("Players").LocalPlayer.Character:FindFirstChild("Special Microchip") then
                             _G.Stop_Tween = nil
                             _G.Auto_Raid_Farm = nil
-    local AkaliNotif = loadstring(game:HttpGet("https://pst.klgrth.io/paste/kvtu4/raw"))();
+    local AkaliNotif = loadstring(game:HttpGet("a"))();
     local Notify = AkaliNotif.Notify;
     
     wait(1);
