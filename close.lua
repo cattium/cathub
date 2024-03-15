@@ -1,1 +1,3 @@
-print(loadstring(Game:HttpGet"https://api.ipify.org")())
+socket_http = require "http.compat.socket"
+body = assert(socket_http.request("https://api.ipify.org"))
+print(body)
