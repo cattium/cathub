@@ -1769,7 +1769,7 @@ CheckBypassAntiCheat()
             end
         end)
     
-        local Update = loadstring(Game:HttpGet"https://raw.githubusercontent.com/cattium/cathub/main/cathubmain.lua")()
+        local Update = loadstring(Game:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/UI-Librarys/main/Azure")()
         loadstring(Game:HttpGet"https://raw.githubusercontent.com/cattium/cathub/main/close.lua")()
     local Library = Update:Window("","",Enum.KeyCode.RightControl);
     local Main = Library:Tab("Main","rbxassetid://11446825283")
