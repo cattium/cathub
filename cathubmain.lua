@@ -16,7 +16,7 @@ OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
 end)
 end
 
-CheckBypassAntiCheat()
+--CheckBypassAntiCheat()
     
     if game.PlaceId == 2753915549 then
         World1 = true
