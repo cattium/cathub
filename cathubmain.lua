@@ -1,6 +1,6 @@
-function CheckBypassAntiCheat()
-game.Players.LocalPlayer.DataPreloaded:Destroy()
-game.Players.LocalPlayer.DataLoaded:Destroy()
+--function CheckBypassAntiCheat()
+--game.Players.LocalPlayer.DataPreloaded:Destroy()
+--game.Players.LocalPlayer.DataLoaded:Destroy()
 local Players = game:GetService("Players")
 local OldNameCall = nil
 game:WaitForChild("CoreGui").RobloxGui:WaitForChild("NotificationFrame"):Destroy()
