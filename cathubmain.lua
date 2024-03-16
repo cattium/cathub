@@ -23,6 +23,7 @@ elseif game.PlaceId == 7449423635 then
     World3 = true
 end
 
+
     
     function CheckLevel() 
         local MyLevel = game.Players.LocalPlayer.Data.Level.Value
