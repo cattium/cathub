@@ -1,20 +1,3 @@
-function CheckBypassAntiCheat()
-    local Players = game:GetService("Players")
-    local OldNameCall = nil
-    game:WaitForChild("CoreGui").RobloxGui:WaitForChild("NotificationFrame"):Destroy()
-
-    OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
-        local NameCallMethod = getnamecallmethod()
-
-        if tostring(string.lower(NameCallMethod)) == "kick" then
-            return nil
-        end
-        return OldNameCall(Self, ...)
-    end)
-end
-
-CheckBypassAntiCheat()
-
 if game.PlaceId == 2753915549 then
     World1 = true
 elseif game.PlaceId == 4442272183 then
