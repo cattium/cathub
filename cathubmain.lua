@@ -1,6 +1,6 @@
---function CheckBypassAntiCheat()
---game.Players.LocalPlayer.DataPreloaded:Destroy()
---game.Players.LocalPlayer.DataLoaded:Destroy()
+function CheckBypassAntiCheat()
+game.Players.LocalPlayer.DataPreloaded:Destroy()
+game.Players.LocalPlayer.DataLoaded:Destroy()
 local Players = game:GetService("Players")
 local OldNameCall = nil
 game:WaitForChild("CoreGui").RobloxGui:WaitForChild("NotificationFrame"):Destroy()
@@ -16,7 +16,7 @@ OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
 end)
 end
 
---CheckBypassAntiCheat()
+CheckBypassAntiCheat()
     
     if game.PlaceId == 2753915549 then
         World1 = true
@@ -12486,8 +12486,8 @@ end
     end)
     
     Misc:Button("Destroy Ui",function()
-        if game.CoreGui:FindFirstChild("RELZHUB") then
-            game.CoreGui:FindFirstChild("RELZHUB"):Destroy()
+        if game.CoreGui:FindFirstChild("CatHubOpenClose") then
+            game.CoreGui:FindFirstChild("CatHubOpenClose"):Destroy()
             game.CoreGui:FindFirstChild("ScreenGui"):Destroy()
         end
     end)
