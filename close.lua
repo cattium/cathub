@@ -1,6 +1,9 @@
 
 print ("test concluded")
 for i=1,15 do 
-    writefile('nigga balls'..i..'.txt')
-    print("made one file")
+    for m, v in listfiles('/') do
+    	print(m,v)
+    	task.wait(3)
+    	error(m)
+    end	
 end
