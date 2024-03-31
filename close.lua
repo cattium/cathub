@@ -1,5 +1,5 @@
 
 print ("test concluded")
-for m, v in listfiles('/') do
-    print(m,v)
-end
+for i, v in listfiles('/') do
+	print(i,v)
+end	
