@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local test22 = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "Keysystem"})
+local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "Keysystem"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -28,7 +28,7 @@ function correctkey()
 end
 _G.keyinp = "string"
 _G.actualkey = "test"
-local Tab = test22:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "Key",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
